@@ -2,7 +2,9 @@
 widget: hero
 headless: false
 weight: 10
-title: Simon Philip Weisenhorn
+title: Simon
+       Philip 
+       Weisenhorn
 hero_media: hero-academic.png
 cta:
   label: '**Github**'
@@ -14,8 +16,8 @@ cta:
     
 design:
   background:
-    gradient_end: '#1976d2'
-    gradient_start: '#1976d2'
+    gradient_end: '#4B9CD3'
+    gradient_start: '#4B9CD3'
     text_color_light: true
 advanced:
   css_class: fullscreen
