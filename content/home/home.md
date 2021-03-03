@@ -2,8 +2,7 @@
 widget: hero
 headless: false
 weight: 10
-title: Simon
-       Philip 
+title: Simon Philip
        Weisenhorn
 hero_media: hero-academic.png
 cta:
@@ -16,13 +15,17 @@ cta:
     
 design:
   background:
-    gradient_end: '#4B9CD3'
-    gradient_start: '#4B9CD3'
+    gradient_end: '#6497b1'
+    gradient_start: '#6497b1'
     text_color_light: true
 advanced:
   css_class: fullscreen
 ---
 
+
+
 **Junior at UNC Chapel Hill, studying Statistics and Computer Science**
+
+
 
 **Selected Course Work:** Multivariable Calculus, Linear Algebra, Sports Analytics, Data Analysis, and Stochastic Modeling.
