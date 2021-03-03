@@ -15,8 +15,8 @@ cta:
     
 design:
   background:
-    gradient_end: '#6497b1'
-    gradient_start: '#6497b1'
+    gradient_end: '#8BB8E8'
+    gradient_start: '#8BB8E8'
     text_color_light: true
 advanced:
   css_class: fullscreen
