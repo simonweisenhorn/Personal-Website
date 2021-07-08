@@ -6,10 +6,10 @@ image:
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
   placement: 3
 math: true
-title: Writing technical content in Academic
+title: Drone Racing
 ---
 
-Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
+A statistical look into drone racing
 
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
 
