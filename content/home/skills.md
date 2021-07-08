@@ -21,14 +21,6 @@ feature:
   icon_pack: fab
   name: R
 - description: 
-  icon: java
-  icon_pack: fab
-  name: Java
-- description: 
-  icon: python
-  icon_pack: fab
-  name: Python
-- description: 
   icon: file-code
   icon_pack: fas
   name: SAS
