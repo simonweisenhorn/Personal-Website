@@ -32,6 +32,14 @@ feature:
   icon: clinic-medical
   icon_pack: fas
   name: Clinical Trials
+- description: 
+  icon: hiking
+  icon_pack: fas
+  name: Backpacking
+- description: 
+  icon: fish
+  icon_pack: fas
+  name: Fishing
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"
