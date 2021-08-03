@@ -1,0 +1,1220 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.2 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Simon Weisenhorn">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction Today, many individuals have heard of or seen a drone in their everyday lives - flying by while on a walk, while sitting at the beach on vacation, or hearing of the military’s drone usage on the news.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/writing-technical-content/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#1565c0">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.989bbfa694844ab8ac3ba2f9d39814c6.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  
+  <link rel="manifest" href="/index.webmanifest">
+  
+
+  <link rel="icon" type="image/png" href="/images/icon_hu05650c7d94c57f883940bfa57aa35538_51643_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu05650c7d94c57f883940bfa57aa35538_51643_180x180_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/writing-technical-content/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Simon Weisenhorn">
+  <meta property="og:url" content="/post/writing-technical-content/">
+  <meta property="og:title" content="Drone Racing | Simon Weisenhorn">
+  <meta property="og:description" content="Introduction Today, many individuals have heard of or seen a drone in their everyday lives - flying by while on a walk, while sitting at the beach on vacation, or hearing of the military’s drone usage on the news."><meta property="og:image" content="/post/writing-technical-content/featured.jpg">
+  <meta property="twitter:image" content="/post/writing-technical-content/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2021-07-12T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-07-12T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/writing-technical-content/"
+  },
+  "headline": "Drone Racing",
+  
+  "image": [
+    "/post/writing-technical-content/featured.jpg"
+  ],
+  
+  "datePublished": "2021-07-12T00:00:00Z",
+  "dateModified": "2021-07-12T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Simon Weisenhorn"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Simon Weisenhorn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu05650c7d94c57f883940bfa57aa35538_51643_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Introduction Today, many individuals have heard of or seen a drone in their everyday lives - flying by while on a walk, while sitting at the beach on vacation, or hearing of the military’s drone usage on the news."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Drone Racing | Simon Weisenhorn</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8446300de3057dfecd2dbb1103d0e171.js"></script>
+
+  
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Simon Weisenhorn</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Simon Weisenhorn</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#home"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/media/simon_weisenhorn_resume.pdf"><span>Resumé</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+          
+          <li class="nav-item d-none d-lg-inline-flex">
+            <a class="nav-link" href="/"  aria-label="">
+              <i class="fas fa-" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+
+      
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Drone Racing</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 12, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    17 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header container-fluid featured-image-wrapper mt-4 mb-4" style="max-width: 1800px; max-height: 900px;">
+  <div style="position: relative">
+    <img src="/post/writing-technical-content/featured.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="introduction">Introduction</h2>
+<p>Today, many individuals have heard of or seen a drone in their everyday lives - flying by while on a walk, while sitting at the beach on vacation, or hearing of the military’s drone usage on the news. While many people may be familiar with what a drone is and its multiple applications to modern life, they are probably unfamiliar with the newfound community of people who have become interested in racing them. Beginning in Germany in 2011 with numerous amateur pilots racing in a partially organized manner, this infatuation has manifested as developments in technology and the utilization of the traditional racing structure has allowed for the creation of a competitive, fast-paced sport, known as drone racing.
+The complexities of the race course are for no amatuer pilot. The revolutionary form of drone racing focuses on pilots’ ability to fly drones through an elaborate course while maneuvering through different obstacles. Each drone is equipped with a camera that is mounted to the nose, which transmits video images to the pilot’s goggles and provides real-time feedback on the drone’s point of view. This grants pilots an immersive experience as they navigate the route in first person. Pilots are also given remote controls which control the distribution of power between each of the four propellers based on whether they want the drone to climb, turn, or yaw, but in most races pilots must be able to simultaneously manipulate all three axes so that they can optimally traverse ahead. A set of fine tuned skills is needed by every pilot maneuvering their drone at speeds greater than 80 MPH, to enable them to win the race.</p>
+<p>Pilots come together to race drones at racing competitions. With multiple organizations  and counting - MultiGP, the Drone Racing League, DR1 Racing, and so forth - drones must meet the required standards of the specified league, but for the purposes of this paper, the Drone Racing League, or the DRL, will be studied. The DRL is an international league where professional pilots assemble to compete at intricate courses. The league was founded in 2015 and launched publicly in January 2016 to serve as the host for many professional level races. The DRL creates custom quadcopter racing drones and has successfully secured partnerships with several sports networks such as NBC Sports, ESPN, and Sky Sports. The DRL is the crossroads between virtual and real, meaning that these hosted competitions can be held either in virtual or physical settings, allowing all pilots to be a part of this new and upcoming sport.</p>
+<p>A drone race is carried out in a similar fashion to most racing spectacles, but with an added aspect of obstacles, which one must pass through or go around. Every year a season is constructed with sixteen levels. A level is a unique track where pilots compete to complete the race the fastest. It derives its name from video games as pilots are able to advance based on the points awarded for their overall standing at the end of a race. Each level is composed of multiple heats where twelve pilots independently fly their drones. A heat is a single timed race from start to finish and the pilot with the fastest time wins the heat. In order to access their overall performance, pilots are awarded points based on the order they finish in an event. The pilot who wins the event is given twelve points and each subsequent pilot earns one less point, leaving last place with one point. After all levels have occurred, the pilot with the most points at the end of the season wins.</p>
+<p>As an international league, professional drone racing events take place within stadiums across the globe. As stated before, regarding the specified number of levels to be competed in by 12 pilots for the season, locations are announced for each level prior to the season’s kickoff. In years past, these locations were mainly in-person, such as the 2018 Semi Finals held in the BMW automobile museum or the 2016 World Drone Prix in Dubai. Of late, such as with the 2020 DRL Allianz World Championship Season, locations took place in the DRL SIM, a drone racing simulator that is available on Xbox, Steam, and Playstation. Being virtual, the competing pilots raced from the comfort of their homes through virtual courses, but with real-life controller movements. From the 2020 season, there were 16 levels of racing, where locations included Miami, London, and California Nights, to name a few.</p>
+<p>Since the beginning, drone racing and the DRL specifically, has had an immense interest from investors and the public at large. In under three years, the DRL has been able to acquire 32 million dollars from investors and currently holds more than double that with T-Mobile’s recent multi-year deal with them, established in 2020. A researched report published by the market intelligence company, ‘Transparency Market Research,’ expects a compound annual growth rate of ~19% for the overall drone racing market from 2019 - 2027 and alongside that, a market valuation of $786 million. With more than 250 million fans, a 200% uptick in DRL viewership from 2019 to 2020, and a recent DRL launch into China, it seems that drone racing is only going to become increasingly popular as countries such as India, Japan, and South Korea experience drone racing market demand.</p>
+<p>With a brief introduction to the sport of drone racing, it is important to understand why our group chose this sport as our final research assignment. When prompted to research a sport and to discover all facets that make up that sport, it was believed that an uncommon or new sport should be analyzed with hopes of bringing about more knowledge. Drone racing was chosen because not only is the sport new, but its promise for future growth is overwhelming. From gathering information about investments and the sport’s fan base - a predicted market valuation of $786 million and a fan base exceeding 250 million - we believe that the sport of drone racing will continue to grow in popularity. We also believe that with this new day in time, faced with a pandemic and unequivocal growth in technology, drone racing allows for not only physical in-person racing, but also virtual racing as seen with the 2020 season. Only the future can reveal the ultimate success of this sport, but it is very probable that in 10 to 15 years from now ESPN will be discussing the most recent drone level races.</p>
+<h2 id="literature-review">Literature Review</h2>
+<p>Given that the DRL is currently more focused on the entertainment value and growing the prevalence of the sport, the history of analytics used in drone racing is still in its inception. This unallocated focus on analytics has caused a deficiency in metrics measured and implemented by individuals in the DRL. However, the few metrics that are available center around time-based statistics. This mainly includes the amount of time it takes for each drone to complete the heat, but can be broken up into individual lap times and the average amount of time it takes to complete each lap. The DRL also measures the amount of points pilots receive for each level, which are then summed at the end of the season to determine the total amount for each pilot. The total points can be averaged over all levels to return the average number of points scored by a pilot per level. Therefore, based on these metrics, the best pilot in the DRL is determined by the shortest amount of time it takes to complete a heat within a level appearance, and the most amount of points scored at the end of a season. Currently, Jordan “Jet” Tempkin holds two championship titles from the 2016 and 2017 seasons, making him the only pilot in the DRL with multiple championships. However, Paul “Nurk” Nurkkala has consistently scored near the top each season and holds a championship title from 2018. Additionally, Alex Vanover won the 2019 season, making him the only rookie to ever win an entire season and suggests a bright future ahead of him.</p>
+<p>As of the 2021 season, DraftKings, an American sports betting operator, signed a deal with the DRL to allow for bets to be made on drone racing. This deal signifies DRL drone racing as the first aerial sporting event that fans can bet on. Albeit, wagers can only be made in ten states with other states pending currently. Moreover, since this past season was the first time betting was allowed on races, the only bets that existed were to guess the winner of the level. Before the start of a level, DraftKings calculates the odds of each pilot winning the level and provides the American representation on their website. Then, spectators are able to place their bets on a pilot and are paid based on if they selected the correct winner and the odds of that pilot winning.</p>
+<p>The main analytical challenge pertaining to drone racing focuses on the relationship between speed and handling. Before each race, pilots must decide how much tilt they wish their camera to have as it affects how they fly. A higher tilt means that pilots will have a more aggressive flying experience but less control, and a lower tilt means that pilots will have more visibility but a lower top speed. Racers seek to find a balance between both extremes in order to find their ideal angle. Analytics provided from the NASCAR Daytona 500 race showed that the top five fastest cars on drafting tracks went winless in all four of their events. Analysts found that the sixth fastest racer in the Daytona 500, William Byron, was the most successful due to the importance that he placed on handling (Smith). This revelation was used to solve the same issue in drone racing as it proves that only prioritizing speed leads to failure. Therefore, it is highly inadvisable to have a camera that is tilted all the way up because it drastically decreases a pilot’s handling ability and chances to win.</p>
+<h2 id="future-work">Future Work</h2>
+<p>As mentioned before, drone racing, both as a whole and on a competitive level, is a fairly new sport with the Drone Racing League only being around for the past 6 years. This means that although it is fastly growing and the community seeks to better the sport on all fronts, there are still many areas that can be improved and also many innovative ideas that can be introduced. In order to create possible innovations for such a new sport, we first looked into various other sports that have found success in the field of racing and how they have utilized data and specific metrics to improve the performance of their athletes. The sport we found that had the most similarities to drone racing was Formula 1 racing, which has been widely successful across the globe in terms of fan following, performance, and profitability. With extensive research regarding the ways Formula 1 racing has improved their standards over the years, we have determined 4 areas, or ideas, that we believe can not only improve the overall performance in drone racing, but also aid in the development of the sport as a whole.
+The first of these innovations concerns the telemetry data analysis implemented throughout the Formula 1 season, both from race-to-race and in-preparation for the season. Every Formula 1 car can be fitted with over 200 sensors that are able to measure nearly all metrics available, from speed and gear, to steering and braking power. All of these statistics are used to unbiasedly show where the driver loses precious fractions of a second by comparing them to the all important delta time statistic that gives the difference in time (whether better or worse) between one driver and another competitor or teammate. Figure 1 shows, from top to bottom, a comparison for drivers - Verstappen (blue) and Hamilton (red) - for gear, steering input, speed, throttle/brake, and delta time in a practice race. The green boxes labelled 1 to 3 are 3 key areas an analyst can pinpoint as key differences in driving technique that resulted in time gained or lost by each driver.</p>
+<p>This type of Formula 1 data can easily be implemented into drone racing in a very similar way. Through outfitting all of the drones with telemetry monitoring devices, pilots would be able to have access to extensive data encompassing drone performance; all movement is based on the speed of each propeller, allowing for the analysis of how the differing speeds interact to move along the 3 axes. By recording these prop speeds, along with other related metrics including the positioning, pitch, and lift of the drones, we believe that pilots and their teams can find optimal routes to maneuver their vehicles and gain the minute edges that could be the difference between winning and losing.
+The second implementation we believe that could improve drone performance centers around providing data to optimize the start of a race. This is a critical moment for a race because each pilot must apply power to all four propellers to lift off the ground and then immediately increase thrust to the rear two motors and pitch forward. However, it is important to recognize that the balance between pitch and throttle must be managed carefully. When taking off, if too much pitch is applied and not enough throttle the drone will crash into the ground, and if too much throttle is applied and not enough pitch the drone will fly too high and not advance fast enough. Thus, the best pilots can race quickly while keeping at a constant elevation.</p>
+<p>In Formula 1 racing, the angle of the wheels in relation to the ground is called camber. The front tires have negative camber, meaning that the tops of the tires point inward, and there is little to no camber in the rear wheels. This inward angle allows for the weight of the car to lean on the outer, more loaded tires so that the contact surface area increases between the tire and the road. This increased surface area contact grants the ability to drive faster all while still having control of the car (Tyson). Therefore, in order to utilize the importance that prop angles have within their environment, we suggest that teams outfit their drone with an accelerometer which would work as an artificial equilibrium within the drone. This measurement could send real time data regarding the angle of the drone to a pilot&rsquo;s goggles at the start of the race to ensure that they are holding an angle that optimizes their speed while mitigating the inefficacy that comes with being angled too steep or too shallow. In doing this, drones would be able to hold the best flight angle more consistently, similar to how Formula 1 cars have adjusted the angle of their tires, and achieve a more advantageous starting position for each race.</p>
+<p>Since drone racing is fueled by the adrenaline of pilots and requires constant focus, it evokes tremendous stress for the pilots. Therefore, another innovative idea for drone racing would be to capture pilots’ vitals during their races. This would help teams understand how well a pilot is able to manage their stress as they race under pressure. For example, the company “Cosinuss” works closely with Formula 1 drivers to provide them an earpiece that measures the heart rate, heart rate variability, and body temperature of the driver. By using these measurements via the earpiece, an estimate as to how stressed a driver is at any given time is possible (Schweiger). This technology could be implemented into drone racing as well by providing pilots with their calculated stress levels. The stress level could then be broken up per second, enabling analysts to plot a pilot’s stress levels against their time spent racing to determine spikes in stress during a race. With this data, pilots could compare the amount of large spikes in stress during a race to the time it took them to complete the course and their final position, allowing an analysis of whether stress negatively correlates to their ability to succeed. Errors in the race, such as crashes and loose turns, could be compared with the pilot’s level of stress in that moment to see if high stress was a factor in making the mistake. Therefore, if pilots recognize that their stress to error ratio is high, practicing stress reduction techniques could provide beneficial results.</p>
+<p>The fourth aspect within the sport of drone racing that could be improved regards crashes. Although the league does not currently record time lost due to crashes, it can be inferred that this is the most probable situation where the greatest time is lost. In one study, NASCAR analysts used previous data on crashes for different race tracks to determine where crashes were most likely to occur. This gave analysts an idea as to how to advise drivers on their driving style before the race even began (Chemi). Therefore, as a possible area for improvement in terms of drone performance, if more data were to be collected on crashes in terms of where and how the crash occurred, the time lost from a crash, and the frequency of crashes per race, pilots would be more prepared for how to handle the route before they hit the starting line. This would effectively create a crash risk factor for pilots, allowing them to decide whether they should fly more risky regarding their drone’s speeds, pitches, and lifts, or if they should play it safe based on how large the given risk factor is for a course section.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The Drone Racing League founded in 2015 has taken flight. Gathering the attention of not only drone- and aviation-lovers, but also the attention of racing fanatics, the sport has grown substantially in the past 6 years. We’ve explored the possibilities of future innovations for the sport, the early signs of betting that has taken place, and the possible measurable analytics. With some drone racing events including teammates and other racing events having appealing cash prizes for winners, we hope to see drone racing make a revolutionary mark in fan numbers. The help of T-mobile’s recent partnership with the DRL for 5G racing drone technology adds even more potential to the sport’s growth. It is easy to admire the fusion of both the gaming industry and the classical sports industry into one. With the use of virtual reality goggles - giving anyone a shot at induction into the league with practice - it makes us wonder if possible success between T-Mobile and the DRL could lead to the creation of mini-leagues in the future. The future of drone racing is bright, for it holds the potential to expand and become the next largest racing event in the world.</p>
+<h2 id="references">References</h2>
+<p>American Gambler. “Drone Racing League 2020: Latest Odds &amp; How to Bet On Level 15 (Biosphere).” American Gambler, 26 Jan. 2021, <a href="http://www.americangambler.com/drone-racing-league-2020-latest-odds-how-to-bet-on-stage-15-biosphere">www.americangambler.com/drone-racing-league-2020-latest-odds-how-to-bet-on-stage-15-biosphere</a>.</p>
+<p>Blackstock, Elizabeth. “Formula One Telemetry: Explained.” Jalopnik, 6 Dec. 2020, jalopnik.com/formula-one-telemetry-explained-1845819678.</p>
+<p>Chemi, Eric. “Analytics: Examining Driver Crash Data at Daytona and More.” NASCAR Talk | NBC Sports, 18 Feb. 2016, nascar.nbcsports.com/2016/02/18/analytics-examining-driver-crash-data-at-daytona-and-more.</p>
+<p>Darcy, Kieran. “Drone Racing League Introduces next Generation of Racing Drone.” ESPN.Com, 7 Apr. 2017, <a href="http://www.espn.com/espn/story/_/id/19100909/drone-racing-league-introduces-next-generation-racing-drone">www.espn.com/espn/story/_/id/19100909/drone-racing-league-introduces-next-generation-racing-drone</a>.
+“How Big Data And Analytics Power Formula 1.” Intel, <a href="http://www.intel.co.uk/content/www/uk/en/it-management/cloud-analytic-hub/big-data-powers-f1.html">www.intel.co.uk/content/www/uk/en/it-management/cloud-analytic-hub/big-data-powers-f1.html</a>. Accessed 6 May 2021.</p>
+<p>Howard, Johnette. “Proponents See Huge Potential for Drone Racing League.” ESPN.Com, 13 Aug. 2015, <a href="http://www.espn.com/espn/story/_/id/13431957/proponents-see-huge-potential-drone-racing-league">www.espn.com/espn/story/_/id/13431957/proponents-see-huge-potential-drone-racing-league</a>.
+Research, Transparency Market. “Global Racing Drone Market to Reach Valuation of ~US$786 Mn by 2027; Increasing Popularity of Commercial Racing Events to Drive Growth, Finds TMR.” PR Newswire, 19 Feb. 2020, <a href="http://www.prnewswire.com/news-releases/global-racing-drone-market-to-reach-valuation-of-us786-mn-by-2027-increasing-popularity-of-commercial-racing-events-to-drive-growth-finds-tmr-301007400.html">www.prnewswire.com/news-releases/global-racing-drone-market-to-reach-valuation-of-us786-mn-by-2027-increasing-popularity-of-commercial-racing-events-to-drive-growth-finds-tmr-301007400.html</a>.</p>
+<p>Schiff, Allison. “With Sports On Hold, The Drone Racing League Is Flying High With Marketing Partners And A Broadcast Deal.” AdExchanger, 15 May 2020, <a href="http://www.adexchanger.com/tv-2/with-sports-on-hold-the-drone-racing-league-is-flying-high-with-marketing-partners-and-a-broadcast-deal">www.adexchanger.com/tv-2/with-sports-on-hold-the-drone-racing-league-is-flying-high-with-marketing-partners-and-a-broadcast-deal</a>.</p>
+<p>Schweiger, Gerrit. “Physical Stress in Formula 1.” Cosinuss°, 26 Feb. 2019, <a href="http://www.cosinuss.com/en/portfolio-items/koerperliche-belastung-in-der-formel-eins">www.cosinuss.com/en/portfolio-items/koerperliche-belastung-in-der-formel-eins</a>.
+Smith, David. “Analysis: Handling, Risk Mitigation Key to Winning Daytona 500.” NASCAR Talk | NBC Sports, 15 Feb. 2021, nascar.nbcsports.com/2021/02/14/ricky-stenhouse-denny-hamlin-william-byron-joey-logano-analysis-handling-risk-mitigation-key-to-winning-daytona-500.</p>
+<p>“TechCrunch Is Now a Part of Verizon Media.” Tech Crunch, 12 June 2017, techcrunch.com/2017/06/12/drone-racing-league-raises-a-20m-series-b-ahead-of-its-2nd-season.
+The Drone Racing League. “ABOUT DRL.” The Drone Racing League, 8 Jan. 2021, thedroneracingleague.com/about-drl.</p>
+<p>&mdash;. “Learn More - Beyond the Basics of FPV Drone Racing.” The Drone Racing League, 9 June 2017, thedroneracingleague.com/learn-more.
+Transparency Market Research. “Racing Drones Market to Expand at a CAGR of ~19% till 2027 | TMR.” Transparency Market Research, <a href="http://www.transparencymarketresearch.com/racing-drones-market.html">www.transparencymarketresearch.com/racing-drones-market.html</a>. Accessed 6 May 2021.</p>
+<p>Tyson, Will. “Analysis: F1 Suspension Geometry.” TheWPTformula, WorldPress.com, 5 Mar. 2016, thewptformula.com/2016/02/11/analysis/.
+Young, Jabari. “DraftKings Now Lets You Bet on Drone Races.” CNBC, 8 Jan. 2021, <a href="http://www.cnbc.com/2021/01/08/draftkings-and-drone-racing-league-partnership-lets-you-bet-on-drone-races.html">www.cnbc.com/2021/01/08/draftkings-and-drone-racing-league-partnership-lets-you-bet-on-drone-races.html</a>.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/writing-technical-content/&amp;text=Drone%20Racing" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/writing-technical-content/&amp;t=Drone%20Racing" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Drone%20Racing&amp;body=/post/writing-technical-content/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/writing-technical-content/&amp;title=Drone%20Racing" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Drone%20Racing%20/post/writing-technical-content/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/writing-technical-content/&amp;title=Drone%20Racing" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/author/simon-weisenhorn/avatar_hu2fc9a0e9a3d56b0e35fe63d28afbe2b7_667695_270x270_fill_q75_lanczos_center.JPG" alt="Simon Weisenhorn">
+    
+
+    <div class="media-body">
+      <h5 class="card-title">Simon Weisenhorn</h5>
+      <h6 class="card-subtitle">Student</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/" >
+        <i class="fas fa-"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/simonweisenhorn" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/simon-weisenhorn-0300371b7" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js" integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin="anonymous" title="mermaid"></script>
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+        <div class="search-hit-content">
+          <div class="search-hit-name">
+            <a href="{{relpermalink}}">{{title}}</a>
+            <div class="article-metadata search-hit-type">{{type}}</div>
+            <p class="search-hit-description">{{snippet}}</p>
+          </div>
+        </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.87ad18381fcef1335ce3cc7c5a20006e.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

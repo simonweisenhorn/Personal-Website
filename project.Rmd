@@ -1,0 +1,20 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(blogdown)
+library(readr)
+```
+
+
+```{r}
+blogdown::build_site()
+```
+
+```{r}
+blogdown::serve_site()
+```
+
+
