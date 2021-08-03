@@ -31,9 +31,16 @@ experience:
     description: |2-
         Responsibilities include:
         
-        * Coding Listings
+        * Coding Listings and Tables in SAS
+        * Specing ADaM Datasets
         * Reviewing SAPs
-        * Coding Macros
+        * Reviewing Outputs for Delivery to Clients
+        * Shelling Outputs
+        * Annotating CRFs
+        * Annotating Mock Shell Outputs
+        * Programming Studies for Deliveries
+        * Troubleshooting Pre-Existing Programs
+        * Addressing Client Comments to Output/Dataset Programs
         
   - title: Lifeguard
     company: City of Asheville
