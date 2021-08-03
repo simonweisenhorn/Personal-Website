@@ -6,7 +6,7 @@ education:
   - course: B.S. in Statistics and Analytics
     institution: University of North Carolina at Chapel Hill
     year: 2022
-  - course: Minor in Computer Science
+  - course: Minor in Data Science
     institution: University of North Carolina at Chapel Hill
     year: 2022
 email: "simonweisenhorn@gmail.com"
