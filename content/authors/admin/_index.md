@@ -39,7 +39,7 @@ I am a student at the University of North Carolina in Chapel Hill, studying stat
 
 I have a passion for biostatistics and enjoy seeing how different sources of data can reveal compelling conclusions for new drugs.
 
-I specialize in the SAS coding language to analyze datasets and bridge the gap between pharmaceutical companies and statistics. I am also knowledgeable with the R coding language for building models and graphics.
+I specialize in the SAS coding language to analyze datasets and bridge the gap between pharmaceutical companies and statistics. I am also proficient with the R coding language for building models, analyzing complex datasets, and creating visualizations.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/simon_weisenhorn_resume.docx" >}}resumé{{< /staticref >}}.
