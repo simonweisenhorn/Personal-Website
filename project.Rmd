@@ -6,6 +6,8 @@ output: html_notebook
 ```{r}
 library(blogdown)
 library(readr)
+library(usethis)
+library(gitcreds)
 ```
 
 
@@ -17,4 +19,11 @@ blogdown::build_site()
 blogdown::serve_site()
 ```
 
+```{r}
+usethis::create_github_token()
+```
+
+```{r}
+gitcreds::gitcreds_set()
+```
 

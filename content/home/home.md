@@ -28,4 +28,4 @@ advanced:
 
 
 
-**Selected Course Work:** Multivariable Calculus, Linear Algebra, Sports Analytics, Data Analysis, and Stochastic Modeling.
+**Selected Course Work:** Advanced Methods of Data Analysis, Stochastic Modeling, Probability, Optimization, Linear Algebra, and Multi Variable Calculus
