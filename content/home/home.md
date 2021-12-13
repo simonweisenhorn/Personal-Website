@@ -24,8 +24,8 @@ advanced:
 
 
 
-**Senior at UNC Chapel Hill, studying Statistics and Data Science**
+**Senior at UNC Chapel Hill, Studying Statistics and Data Science**
 
 
 
-**Selected Course Work:** Advanced Methods of Data Analysis, Stochastic Modeling, Probability, Optimization, Linear Algebra, and Multi Variable Calculus
+**Selected Course Work:** Advanced Methods of Data Analysis, Decision Analytics, Data Science, Linear Algebra, and Multiple Variable Calculus
