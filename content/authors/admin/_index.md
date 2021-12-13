@@ -42,4 +42,4 @@ I have a passion for biostatistics and enjoy seeing how different sources of dat
 I specialize in the SAS coding language to analyze datasets and bridge the gap between pharmaceutical companies and statistics. I am also proficient with the R coding language for building models, analyzing complex datasets, and creating visualizations.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/simon_weisenhorn_resume.pdf" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/simon_weisenhorn_resume.docx" >}}resumé{{< /staticref >}}.
