@@ -33,6 +33,6 @@ usethis::use_git_config(user.name = "simonweisenhorn", user.email = "simonweisen
 
 
 ```{r}
-credentials::set_github_pat("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")
+credentials::set_github_pat()
 ```
 

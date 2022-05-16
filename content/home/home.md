@@ -24,7 +24,7 @@ advanced:
 
 
 
-**Senior at UNC Chapel Hill, Studying Statistics and Data Science**
+**Masters of Statistics Candidate at North Carolina State University**
 
 
 

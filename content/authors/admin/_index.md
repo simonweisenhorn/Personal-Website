@@ -35,7 +35,7 @@ superuser: true
 title: Simon Weisenhorn
 ---
 
-I am a student at the University of North Carolina in Chapel Hill, studying statistics and analytics with a minor in data science.
+I am a recent graduate from the University of North Carolina in Chapel Hill where I received my B.S. in Statistics and Analytics and a minor in Data Science. Now, I am currently a Master of Statistics candidate from North Carolina State University.
 
 I have a passion for biostatistics and enjoy seeing how different sources of data can reveal compelling conclusions for new drugs.
 
