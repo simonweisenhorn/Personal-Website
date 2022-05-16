@@ -20,10 +20,19 @@ blogdown::serve_site()
 ```
 
 ```{r}
-usethis::create_github_token()
+usethis::create_github_token("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")
 ```
 
 ```{r}
-gitcreds::gitcreds_set()
+gitcreds::gitcreds_set("https://github.com/simonweisenhorn")
+```
+
+```{r}
+usethis::use_git_config(user.name = "simonweisenhorn", user.email = "simonweisenhorn@gmail.com")
+```
+
+
+```{r}
+credentials::set_github_pat("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")
 ```
 
