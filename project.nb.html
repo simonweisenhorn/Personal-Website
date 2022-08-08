@@ -1770,15 +1770,9 @@ pre code {
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShibG9nZG93bilcbmBgYCJ9 -->
-<pre class="r"><code>library(blogdown)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiV2FybmluZyBtZXNzYWdlOlxuSW4gcmVhZExpbmVzKGNvbikgOiBpbmNvbXBsZXRlIGZpbmFsIGxpbmUgZm91bmQgb24gJ2NvbmZpZy55YW1sJ1xuIn0= -->
-<pre><code>Warning message:
-In readLines(con) : incomplete final line found on &#39;config.yaml&#39;</code></pre>
-<!-- rnb-output-end -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShyZWFkcilcbmxpYnJhcnkodXNldGhpcylcbmxpYnJhcnkoZ2l0Y3JlZHMpXG5gYGAifQ== -->
-<pre class="r"><code>library(readr)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShibG9nZG93bilcbmxpYnJhcnkocmVhZHIpXG5saWJyYXJ5KHVzZXRoaXMpXG5saWJyYXJ5KGdpdGNyZWRzKVxuYGBgIn0= -->
+<pre class="r"><code>library(blogdown)
+library(readr)
 library(usethis)
 library(gitcreds)</code></pre>
 <!-- rnb-source-end -->
@@ -1789,7 +1783,7 @@ library(gitcreds)</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYmxvZ2Rvd246OmJ1aWxkX3NpdGUoKVxuYGBgIn0= -->
 <pre class="r"><code>blogdown::build_site()</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiU3RhcnQgYnVpbGRpbmcgc2l0ZXMg4oCmIFxuaHVnbyB2MC44NS4wLTcyNEQ1REI1K2V4dGVuZGVkIGRhcndpbi9hbWQ2NCBCdWlsZERhdGU9MjAyMS0wNy0wNVQxMDo0NjoyOFogVmVuZG9ySW5mbz1nb2h1Z29pb1xuXG4gICAgICAgICAgICAgICAgICAgfCBFTiAgXG4tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tXG4gIFBhZ2VzICAgICAgICAgICAgfCA1NiAgXG4gIFBhZ2luYXRvciBwYWdlcyAgfCAgMCAgXG4gIE5vbi1wYWdlIGZpbGVzICAgfCAxMyAgXG4gIFN0YXRpYyBmaWxlcyAgICAgfCAxMCAgXG4gIFByb2Nlc3NlZCBpbWFnZXMgfCAzNiAgXG4gIEFsaWFzZXMgICAgICAgICAgfCAxMyAgXG4gIFNpdGVtYXBzICAgICAgICAgfCAgMSAgXG4gIENsZWFuZWQgICAgICAgICAgfCAgMCAgXG5cblRvdGFsIGluIDEwOTEgbXNcbiJ9 -->
+<!-- rnb-output-begin eyJkYXRhIjoiU3RhcnQgYnVpbGRpbmcgc2l0ZXMg4oCmIFxuaHVnbyB2MC44NS4wLTcyNEQ1REI1K2V4dGVuZGVkIGRhcndpbi9hbWQ2NCBCdWlsZERhdGU9MjAyMS0wNy0wNVQxMDo0NjoyOFogVmVuZG9ySW5mbz1nb2h1Z29pb1xuXG4gICAgICAgICAgICAgICAgICAgfCBFTiAgXG4tLS0tLS0tLS0tLS0tLS0tLS0tKy0tLS0tXG4gIFBhZ2VzICAgICAgICAgICAgfCA1NiAgXG4gIFBhZ2luYXRvciBwYWdlcyAgfCAgMCAgXG4gIE5vbi1wYWdlIGZpbGVzICAgfCAxMyAgXG4gIFN0YXRpYyBmaWxlcyAgICAgfCAxMCAgXG4gIFByb2Nlc3NlZCBpbWFnZXMgfCAzNSAgXG4gIEFsaWFzZXMgICAgICAgICAgfCAxMyAgXG4gIFNpdGVtYXBzICAgICAgICAgfCAgMSAgXG4gIENsZWFuZWQgICAgICAgICAgfCAgMCAgXG5cblRvdGFsIGluIDExNTkgbXNcbiJ9 -->
 <pre><code>Start building sites … 
 hugo v0.85.0-724D5DB5+extended darwin/amd64 BuildDate=2021-07-05T10:46:28Z VendorInfo=gohugoio
 
@@ -1799,12 +1793,12 @@ hugo v0.85.0-724D5DB5+extended darwin/amd64 BuildDate=2021-07-05T10:46:28Z Vendo
   Paginator pages  |  0  
   Non-page files   | 13  
   Static files     | 10  
-  Processed images | 36  
+  Processed images | 35  
   Aliases          | 13  
   Sitemaps         |  1  
   Cleaned          |  0  
 
-Total in 1091 ms</code></pre>
+Total in 1159 ms</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -1813,23 +1807,23 @@ Total in 1091 ms</code></pre>
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYmxvZ2Rvd246OnNlcnZlX3NpdGUoKVxuYGBgIn0= -->
 <pre class="r"><code>blogdown::serve_site()</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiTGF1bmNoaW5nIHRoZSBzZXJ2ZXIgdmlhIHRoZSBjb21tYW5kOlxuICAvVXNlcnMvc2ltb253ZWlzZW5ob3JuL0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9IdWdvLzAuODUuMC9odWdvIHNlcnZlciAtLWJpbmQgMTI3LjAuMC4xIC1wIDUyNDQgLS10aGVtZXNEaXIgdGhlbWVzIC10IHN0YXJ0ZXItYWNhZGVtaWMgLUQgLUYgLS1uYXZpZ2F0ZVRvQ2hhbmdlZFxuU2VydmluZyB0aGUgZGlyZWN0b3J5IC4gYXQgaHR0cDovL2xvY2FsaG9zdDo1MjQ0XG5MYXVuY2hlZCB0aGUgaHVnbyBzZXJ2ZXIgaW4gdGhlIGJhY2tncm91bmQgKHByb2Nlc3MgSUQ6IDE1MzAyKS4gVG8gc3RvcCBpdCwgY2FsbCBibG9nZG93bjo6c3RvcF9zZXJ2ZXIoKSBvciByZXN0YXJ0IHRoZSBSIHNlc3Npb24uXG4ifQ== -->
+<!-- rnb-output-begin eyJkYXRhIjoiTGF1bmNoaW5nIHRoZSBzZXJ2ZXIgdmlhIHRoZSBjb21tYW5kOlxuICAvVXNlcnMvc2ltb253ZWlzZW5ob3JuL0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9IdWdvLzAuODUuMC9odWdvIHNlcnZlciAtLWJpbmQgMTI3LjAuMC4xIC1wIDUyNDQgLS10aGVtZXNEaXIgdGhlbWVzIC10IHN0YXJ0ZXItYWNhZGVtaWMgLUQgLUYgLS1uYXZpZ2F0ZVRvQ2hhbmdlZFxuU2VydmluZyB0aGUgZGlyZWN0b3J5IC4gYXQgaHR0cDovL2xvY2FsaG9zdDo1MjQ0XG5MYXVuY2hlZCB0aGUgaHVnbyBzZXJ2ZXIgaW4gdGhlIGJhY2tncm91bmQgKHByb2Nlc3MgSUQ6IDQ1NjU4KS4gVG8gc3RvcCBpdCwgY2FsbCBibG9nZG93bjo6c3RvcF9zZXJ2ZXIoKSBvciByZXN0YXJ0IHRoZSBSIHNlc3Npb24uXG4ifQ== -->
 <pre><code>Launching the server via the command:
   /Users/simonweisenhorn/Library/Application Support/Hugo/0.85.0/hugo server --bind 127.0.0.1 -p 5244 --themesDir themes -t starter-academic -D -F --navigateToChanged
 Serving the directory . at http://localhost:5244
-Launched the hugo server in the background (process ID: 15302). To stop it, call blogdown::stop_server() or restart the R session.</code></pre>
+Launched the hugo server in the background (process ID: 45658). To stop it, call blogdown::stop_server() or restart the R session.</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudXNldGhpczo6Y3JlYXRlX2dpdGh1Yl90b2tlbihcImdocF9UUlA0b2VMdUU5aVJaSTlrZ3ZFSnJlZWZrQUF1dXIzTkd4aGJcIilcbmBgYCJ9 -->
-<pre class="r"><code>usethis::create_github_token(&quot;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&quot;)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudXNldGhpczo6Y3JlYXRlX2dpdGh1Yl90b2tlbihcImdocF9URFI5Z3RMdHAwSEl1a3p1TlFZa2ZVeEpNaldZZjEwVVpwcDNcIilcbmBgYCJ9 -->
+<pre class="r"><code>usethis::create_github_token(&quot;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&quot;)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoi4oCiIENhbGwgYGdpdGNyZWRzOjpnaXRjcmVkc19zZXQoKWAgdG8gcmVnaXN0ZXIgdGhpcyB0b2tlbiBpbiB0aGUgbG9jYWwgR2l0IGNyZWRlbnRpYWwgc3RvcmVcbiAgSXQgaXMgYWxzbyBhIGdyZWF0IGlkZWEgdG8gc3RvcmUgdGhpcyB0b2tlbiBpbiBhbnkgcGFzc3dvcmQtbWFuYWdlbWVudCBzb2Z0d2FyZSB0aGF0IHlvdSB1c2VcbuKckyBPcGVuaW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL3NldHRpbmdzL3Rva2Vucy9uZXc/c2NvcGVzPWdocF9UUlA0b2VMdUU5aVJaSTlrZ3ZFSnJlZWZrQUF1dXIzTkd4aGImZGVzY3JpcHRpb249REVTQ1JJQkUgVEhFIFRPS0VOXFwnUyBVU0UgQ0FTRSdcbiJ9 -->
+<!-- rnb-output-begin eyJkYXRhIjoi4oCiIENhbGwgYGdpdGNyZWRzOjpnaXRjcmVkc19zZXQoKWAgdG8gcmVnaXN0ZXIgdGhpcyB0b2tlbiBpbiB0aGUgbG9jYWwgR2l0IGNyZWRlbnRpYWwgc3RvcmVcbiAgSXQgaXMgYWxzbyBhIGdyZWF0IGlkZWEgdG8gc3RvcmUgdGhpcyB0b2tlbiBpbiBhbnkgcGFzc3dvcmQtbWFuYWdlbWVudCBzb2Z0d2FyZSB0aGF0IHlvdSB1c2VcbuKckyBPcGVuaW5nIFVSTCAnaHR0cHM6Ly9naXRodWIuY29tL3NldHRpbmdzL3Rva2Vucy9uZXc/c2NvcGVzPWdocF9URFI5Z3RMdHAwSEl1a3p1TlFZa2ZVeEpNaldZZjEwVVpwcDMmZGVzY3JpcHRpb249REVTQ1JJQkUgVEhFIFRPS0VOXFwnUyBVU0UgQ0FTRSdcbiJ9 -->
 <pre><code>• Call `gitcreds::gitcreds_set()` to register this token in the local Git credential store
   It is also a great idea to store this token in any password-management software that you use
-✓ Opening URL &#39;https://github.com/settings/tokens/new?scopes=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&amp;description=DESCRIBE THE TOKEN\&#39;S USE CASE&#39;</code></pre>
+✓ Opening URL &#39;https://github.com/settings/tokens/new?scopes=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&amp;description=DESCRIBE THE TOKEN\&#39;S USE CASE&#39;</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -1838,6 +1832,10 @@ Launched the hugo server in the background (process ID: 15302). To stop it, call
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ2l0Y3JlZHM6OmdpdGNyZWRzX3NldChcImh0dHBzOi8vZ2l0aHViLmNvbS9zaW1vbndlaXNlbmhvcm5cIilcbmBgYCJ9 -->
 <pre class="r"><code>gitcreds::gitcreds_set(&quot;https://github.com/simonweisenhorn&quot;)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gbmV3X2dpdF9lcnJvcihcImdpdF9lcnJvclwiLCBhcmdzID0gYXJncywgc3Rkb3V0ID0gb3V0LCBzdGF0dXMgPSBhdHRyKG91dCwgIDogXG4gIFN5c3RlbSBnaXQgZmFpbGVkOiB4Y3J1bjogZXJyb3I6IGludmFsaWQgYWN0aXZlIGRldmVsb3BlciBwYXRoICgvTGlicmFyeS9EZXZlbG9wZXIvQ29tbWFuZExpbmVUb29scyksIG1pc3NpbmcgeGNydW4gYXQ6IC9MaWJyYXJ5L0RldmVsb3Blci9Db21tYW5kTGluZVRvb2xzL3Vzci9iaW4veGNydW5cbiJ9 -->
+<pre><code>Error in new_git_error(&quot;git_error&quot;, args = args, stdout = out, status = attr(out,  : 
+  System git failed: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -1845,26 +1843,46 @@ Launched the hugo server in the background (process ID: 15302). To stop it, call
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudXNldGhpczo6dXNlX2dpdF9jb25maWcodXNlci5uYW1lID0gXCJzaW1vbndlaXNlbmhvcm5cIiwgdXNlci5lbWFpbCA9IFwic2ltb253ZWlzZW5ob3JuQGdtYWlsLmNvbVwiKVxuYGBgIn0= -->
 <pre class="r"><code>usethis::use_git_config(user.name = &quot;simonweisenhorn&quot;, user.email = &quot;simonweisenhorn@gmail.com&quot;)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiV2FybmluZyBtZXNzYWdlOlxuSW4gcmVhZExpbmVzKGNvbikgOiBpbmNvbXBsZXRlIGZpbmFsIGxpbmUgZm91bmQgb24gJ2NvbmZpZy55YW1sJ1xuIn0= -->
-<pre><code>Warning message:
-In readLines(con) : incomplete final line found on &#39;config.yaml&#39;</code></pre>
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeShjcmVkZW50aWFscylcbmNyZWRlbnRpYWxzOjpzZXRfZ2l0aHViX3BhdChcImdocF9qTk5UOFNlZTB5VXJBd2xrM25kTzBRb1V2WXY5RUcyTHZRZFRcIilcbmBgYCJ9 -->
+<pre class="r"><code>library(credentials)
+credentials::set_github_pat(&quot;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&quot;)</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiSWYgcHJvbXB0ZWQgZm9yIEdpdEh1YiBjcmVkZW50aWFscywgZW50ZXIgeW91ciBQQVQgaW4gdGhlIHBhc3N3b3JkIGZpZWxkXG54Y3J1bjogZXJyb3I6IGludmFsaWQgYWN0aXZlIGRldmVsb3BlciBwYXRoICgvTGlicmFyeS9EZXZlbG9wZXIvQ29tbWFuZExpbmVUb29scyksIG1pc3NpbmcgeGNydW4gYXQ6IC9MaWJyYXJ5L0RldmVsb3Blci9Db21tYW5kTGluZVRvb2xzL3Vzci9iaW4veGNydW5cbkVycm9yOiBGYWlsZWQgdG8gY2FsbCAnZ2l0IGNyZWRlbnRpYWwgZmlsbCdcbiJ9 -->
+<pre><code>If prompted for GitHub credentials, enter your PAT in the password field
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Error: Failed to call &#39;git credential fill&#39;</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3JlZGVudGlhbHM6OnNldF9naXRodWJfcGF0KFwiZ2hwXzVaSDNLcUpaWnc5aU1JYUVHaXpjUG5BUlY5aWswSDNOOWVoZ1wiKVxuYGBgIn0= -->
-<pre class="r"><code>credentials::set_github_pat(&quot;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&quot;)</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY3JlZGVudGlhbHM6OnNldF9naXRodWJfcGF0KGZvcmNlX25ldyA9IFRSVUUpXG5gYGAifQ== -->
+<pre class="r"><code>credentials::set_github_pat(force_new = TRUE)</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiSWYgcHJvbXB0ZWQgZm9yIEdpdEh1YiBjcmVkZW50aWFscywgZW50ZXIgeW91ciBQQVQgaW4gdGhlIHBhc3N3b3JkIGZpZWxkXG5BdXRoZW50aWNhdGlvbiBmYWlsZWQuIFRva2VuIGludmFsaWQuXG4ifQ== -->
-<pre><code>If prompted for GitHub credentials, enter your PAT in the password field
-Authentication failed. Token invalid.</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoieGNydW46IGVycm9yOiBpbnZhbGlkIGFjdGl2ZSBkZXZlbG9wZXIgcGF0aCAoL0xpYnJhcnkvRGV2ZWxvcGVyL0NvbW1hbmRMaW5lVG9vbHMpLCBtaXNzaW5nIHhjcnVuIGF0OiAvTGlicmFyeS9EZXZlbG9wZXIvQ29tbWFuZExpbmVUb29scy91c3IvYmluL3hjcnVuXG5FcnJvcjogRmFpbGVkIHRvIGNhbGwgJ2dpdCBjcmVkZW50aWFsIHJlamVjdCdcbiJ9 -->
+<pre><code>xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+Error: Failed to call &#39;git credential reject&#39;</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ2l0Y3JlZHM6OmdpdGNyZWRzX3NldCgpXG5gYGAifQ== -->
+<pre class="r"><code>gitcreds::gitcreds_set()</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3IgaW4gbmV3X2dpdF9lcnJvcihcImdpdF9lcnJvclwiLCBhcmdzID0gYXJncywgc3Rkb3V0ID0gb3V0LCBzdGF0dXMgPSBhdHRyKG91dCwgIDogXG4gIFN5c3RlbSBnaXQgZmFpbGVkOiB4Y3J1bjogZXJyb3I6IGludmFsaWQgYWN0aXZlIGRldmVsb3BlciBwYXRoICgvTGlicmFyeS9EZXZlbG9wZXIvQ29tbWFuZExpbmVUb29scyksIG1pc3NpbmcgeGNydW4gYXQ6IC9MaWJyYXJ5L0RldmVsb3Blci9Db21tYW5kTGluZVRvb2xzL3Vzci9iaW4veGNydW5cbiJ9 -->
+<pre><code>Error in new_git_error(&quot;git_error&quot;, args = args, stdout = out, status = attr(out,  : 
+  System git failed: xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkoYmxvZ2Rvd24pCmxpYnJhcnkocmVhZHIpCmxpYnJhcnkodXNldGhpcykKbGlicmFyeShnaXRjcmVkcykKYGBgCgoKYGBge3J9CmJsb2dkb3duOjpidWlsZF9zaXRlKCkKYGBgCgpgYGB7cn0KYmxvZ2Rvd246OnNlcnZlX3NpdGUoKQpgYGAKCmBgYHtyfQp1c2V0aGlzOjpjcmVhdGVfZ2l0aHViX3Rva2VuKCJnaHBfVFJQNG9lTHVFOWlSWkk5a2d2RUpyZWVma0FBdXVyM05HeGhiIikKYGBgCgpgYGB7cn0KZ2l0Y3JlZHM6OmdpdGNyZWRzX3NldCgiaHR0cHM6Ly9naXRodWIuY29tL3NpbW9ud2Vpc2VuaG9ybiIpCmBgYAoKYGBge3J9CnVzZXRoaXM6OnVzZV9naXRfY29uZmlnKHVzZXIubmFtZSA9ICJzaW1vbndlaXNlbmhvcm4iLCB1c2VyLmVtYWlsID0gInNpbW9ud2Vpc2VuaG9ybkBnbWFpbC5jb20iKQpgYGAKCgpgYGB7cn0KY3JlZGVudGlhbHM6OnNldF9naXRodWJfcGF0KCkKYGBgCgo=</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiUiBOb3RlYm9vayIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9CmxpYnJhcnkoYmxvZ2Rvd24pCmxpYnJhcnkocmVhZHIpCmxpYnJhcnkodXNldGhpcykKbGlicmFyeShnaXRjcmVkcykKYGBgCgoKYGBge3J9CmJsb2dkb3duOjpidWlsZF9zaXRlKCkKYGBgCgpgYGB7cn0KYmxvZ2Rvd246OnNlcnZlX3NpdGUoKQpgYGAKCmBgYHtyfQp1c2V0aGlzOjpjcmVhdGVfZ2l0aHViX3Rva2VuKCJnaHBfVERSOWd0THRwMEhJdWt6dU5RWWtmVXhKTWpXWWYxMFVacHAzIikKYGBgCgpgYGB7cn0KZ2l0Y3JlZHM6OmdpdGNyZWRzX3NldCgiaHR0cHM6Ly9naXRodWIuY29tL3NpbW9ud2Vpc2VuaG9ybiIpCmBgYAoKYGBge3J9CnVzZXRoaXM6OnVzZV9naXRfY29uZmlnKHVzZXIubmFtZSA9ICJzaW1vbndlaXNlbmhvcm4iLCB1c2VyLmVtYWlsID0gInNpbW9ud2Vpc2VuaG9ybkBnbWFpbC5jb20iKQpgYGAKCgpgYGB7cn0KbGlicmFyeShjcmVkZW50aWFscykKY3JlZGVudGlhbHM6OnNldF9naXRodWJfcGF0KCJnaHBfak5OVDhTZWUweVVyQXdsazNuZE8wUW9Vdll2OUVHMkx2UWRUIikKYGBgCgpgYGB7cn0KY3JlZGVudGlhbHM6OnNldF9naXRodWJfcGF0KGZvcmNlX25ldyA9IFRSVUUpCmBgYAoKYGBge3J9CmdpdGNyZWRzOjpnaXRjcmVkc19zZXQoKQpgYGAKCg==</div>
 
 
 

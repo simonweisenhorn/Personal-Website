@@ -20,7 +20,7 @@ blogdown::serve_site()
 ```
 
 ```{r}
-usethis::create_github_token("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")
+usethis::create_github_token("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")
 ```
 
 ```{r}
@@ -33,6 +33,15 @@ usethis::use_git_config(user.name = "simonweisenhorn", user.email = "simonweisen
 
 
 ```{r}
-credentials::set_github_pat()
+library(credentials)
+credentials::set_github_pat("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")
+```
+
+```{r}
+credentials::set_github_pat(force_new = TRUE)
+```
+
+```{r}
+gitcreds::gitcreds_set()
 ```
 
