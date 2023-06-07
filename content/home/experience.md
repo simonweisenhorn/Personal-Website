@@ -29,7 +29,7 @@ experience:
     date_start: '2020-05-18'
     date_end: '2022-08-15'
     description: |2-
-        Responsibilities include:
+        Responsibilities for each summer included:
         
         * Coding Listings and Tables in SAS
         * Specing ADaM Datasets
