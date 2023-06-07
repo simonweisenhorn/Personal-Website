@@ -25,9 +25,9 @@ experience:
   - title: Biostatistician Intern
     company: Catalyst Clinical Research
     company_url: 'https://catalystcr.com'
-    location: Raleigh, North Carolina
+    location: North Carolina
     date_start: '2020-05-18'
-    date_end: '2022-08-15 (Summers)'
+    date_end: ''
     description: |2-
         Responsibilities include:
         
@@ -42,23 +42,32 @@ experience:
         * Troubleshooting Pre-Existing Programs
         * Addressing Client Comments to Output/Dataset Programs
         
-  - title: Graduate Teaching Assistant
-    company: North Carolina State University
-    company_url: 'https://statistics.sciences.ncsu.edu/'
-    location: Raleigh, North Carolina
-    date_start: '2022-08-22'
-    date_end: '2023-05-05'
+  - title: Lifeguard
+    company: City of Asheville
+    company_url: 'https://www.ashevillenc.gov/'
+    location: North Carolina
+    date_start: '2019-06-19'
+    date_end: '2019-08-10'
     description: |2-
-        Responsibilities include:
+        Responsibilities included:
         
-        * Instructed four sections of Introduction to Statistical Programming
-        * Met with 150 students each week to teach the basics of how to program in SAS
-        * Hosted office hours to assist students outside of class for three hours per week
-        * Graded every student’s homework assigments, quizzes, and final projects 
-        * Communicated with students via email regarding questions and updates
-        * Supervised different learning management software such as Moodle and Yellowdig
-
+        * Monitor and protect pool patron's safety
+        * Help open and close the pool
+        * Maintain pool chlorine levels 
+        * Clean pool and pool deck
         
+  - title: Lifeguard
+    company: City of Lincolnton
+    company_url: 'https://www.ci.lincolnton.nc.us/'
+    location: North Carolina
+    date_start: '2017-08-04'
+    date_end: '2019-05-10'
+    description: |2-
+        Responsibilities included:
+        
+        * Monitor and protect pool patron's safety
+        * Maintain pool chlorine levels 
+        * Clean pool and pool deck
               
 
         
