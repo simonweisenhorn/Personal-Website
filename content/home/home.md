@@ -28,4 +28,4 @@ advanced:
 
 
 
-**Selected Course Work:** Advanced Methods of Data Analysis, Decision Analytics, Data Science, Linear Algebra, and Multiple Variable Calculus
+**Selected Course Work:** Statistical Principles of Clinical Trials, Applied Multivariate and Longitudinal Data Analysis, Statistical Programming, Advanced Statistical Programming, Fundamentals of Statistical Theory I, Fundamentals of Statistical Theory II, Applied Statistical Methods, Fundamentals of Linear Models and Regression, Data Science for Statisticians, and Statistical Practice
