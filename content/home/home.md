@@ -28,4 +28,4 @@ advanced:
 
 
 
-**Selected Course Work:** Statistical Principles of Clinical Trials, Applied Multivariate and Longitudinal Data Analysis, Statistical Programming, Advanced Statistical Programming, Fundamentals of Statistical Theory I, Fundamentals of Statistical Theory II, Applied Statistical Methods, Fundamentals of Linear Models and Regression, Data Science for Statisticians, and Statistical Practice
+**Selected Course Work:** Statistical Principles of Clinical Trials, Applied Multivariate and Longitudinal Data Analysis, Advanced Statistical Programming, Fundamentals of Statistical Theory, Applied Statistical Methods, and Data Science for Statisticians
