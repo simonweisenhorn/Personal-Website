@@ -2,6 +2,9 @@
 bio: 
 education:
   courses:
+  - course: Master of Statistics
+    institution: North Carolina State University
+    year: 2023
   - course: B.S. in Statistics and Analytics
     institution: University of North Carolina at Chapel Hill
     year: 2022
@@ -12,12 +15,15 @@ email: "simonweisenhorn@gmail.com"
 highlight_name: false
 interests:
 - Biostatistics
+- Data Science
+- Machine Learning
+- Artificial Intelligence
 - Sports Analytics
 - Fishing
 - Backpacking
 organizations:
-- name: University of North Carolina at Chapel Hill
-  url: https://www.unc.edu/
+- name: North Carolina State University
+  url: https://statistics.sciences.ncsu.edu/
 role: Student
 social:
 - icon: envelope
