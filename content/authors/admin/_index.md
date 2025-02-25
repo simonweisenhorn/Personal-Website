@@ -41,11 +41,11 @@ superuser: true
 title: Simon Weisenhorn
 ---
 
-I am a recent graduate from the University of North Carolina in Chapel Hill where I received my B.S. in Statistics and Analytics and a minor in Data Science. Now, I am currently a Master of Statistics candidate from North Carolina State University.
+I am a biostatistician at Ora, Inc., a contract research organization specializing in ophthalmology studies, where I lead statistical analyses for early to mid phase clinical trials, including studies on dry eye disease and retinitis pigmentosa. I am responsible for ensuring compliance with regulatory requirements, developing statistical analysis plans, and coordinating with large, cross-functional teams, including one based in Hyderabad, India. I oversee the creation of key datasets, summaries, and graphical representations for clinical trial data, while maintaining a focus on data integrity, quality control, and timely project execution. Additionally, I represent the Statistical Operations Department at various regulatory and sponsor meetings
 
-I have a passion for biostatistics and enjoy seeing how different sources of data can reveal compelling conclusions for new drugs.
+I graduated from the University of North Carolina in Chapel Hill where I received my B.S. in Statistics and Analytics and a minor in Data Science. I went on to receive my Master of Statistics from North Carolina State University, but I am still a Tarheel at heart!
 
-I specialize in the SAS coding language to analyze datasets and bridge the gap between pharmaceutical companies and statistics. I am also proficient with the R coding language for building models, analyzing complex datasets, and creating visualizations.
+I specialize in SAS and SQL, but I am also proficient with the R coding language for building models, analyzing complex datasets, and creating visualizations. I am currently working towards proficiency in Python in an effort to expand my working toolbox.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/simon_weisenhorn_resume.pdf" >}}resumé{{< /staticref >}}.

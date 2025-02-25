@@ -24,7 +24,7 @@ advanced:
 
 
 
-**Masters of Statistics Candidate at North Carolina State University**
+**Biostatistician at Ora, Inc.**
 
 
 

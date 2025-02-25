@@ -21,9 +21,13 @@ feature:
   icon_pack: fab
   name: R
 - description: 
-  icon: file-code
+  icon: code
   icon_pack: fas
   name: SAS
+- description: 
+  icon: keyboard
+  icon_pack: fas
+  name: SQL
 - description: 
   icon: chart-line
   icon_pack: fas
@@ -36,10 +40,7 @@ feature:
   icon: hiking
   icon_pack: fas
   name: Backpacking
-- description: 
-  icon: fish
-  icon_pack: fas
-  name: Fishing
+
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"
