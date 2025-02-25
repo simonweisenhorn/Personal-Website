@@ -28,4 +28,4 @@ advanced:
 
 
 
-**Selected Course Work:** Statistical Principles of Clinical Trials, Applied Multivariate and Longitudinal Data Analysis, Advanced Statistical Programming, Fundamentals of Statistical Theory, Applied Statistical Methods, and Data Science for Statisticians
+**Working Remote in Chicago, IL**
