@@ -22,9 +22,9 @@ interests:
 - Fishing
 - Backpacking
 organizations:
-- name: North Carolina State University
-  url: https://statistics.sciences.ncsu.edu/
-role: Student
+- name: Ora, Inc.
+  url: https://oraclinical.com/
+role: Biostatistician
 social:
 - icon: envelope
   icon_pack: fas
