@@ -22,8 +22,8 @@ interests:
 - Fishing
 - Backpacking
 organizations:
-- name: Ora, Inc.
-  url: https://oraclinical.com/
+- name: Lindus Health
+  url: https://www.lindushealth.com//
 role: Biostatistician
 social:
 - icon: envelope
@@ -41,7 +41,7 @@ superuser: true
 title: Simon Weisenhorn
 ---
 
-I am a biostatistician at Ora, Inc., a contract research organization specializing in ophthalmology studies, where I lead statistical analyses for early to mid phase clinical trials, including studies on dry eye disease and retinitis pigmentosa. I am responsible for ensuring compliance with regulatory requirements, developing statistical analysis plans, and coordinating with large, cross-functional teams, including one based in Hyderabad, India. I oversee the creation of key datasets, summaries, and graphical representations for clinical trial data, while maintaining a focus on data integrity, quality control, and timely project execution. Additionally, I represent the Statistical Operations Department at various regulatory and sponsor meetings
+I am a biostatistician at Lindus Health. I am responsible for ensuring compliance with regulatory requirements, developing statistical analysis plans, and coordinating with large, cross-functional teams. I oversee the creation of key datasets, summaries, and graphical representations for clinical trial data, while maintaining a focus on data integrity, quality control, and timely project execution. Additionally, I represent the Statistical Operations Department at various regulatory and sponsor meetings
 
 I graduated from the University of North Carolina in Chapel Hill where I received my B.S. in Statistics and Analytics and a minor in Data Science. I went on to receive my Master of Statistics from North Carolina State University, but I am still a Tarheel at heart!
 

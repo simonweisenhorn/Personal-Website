@@ -24,7 +24,7 @@ advanced:
 
 
 
-**Biostatistician at Ora, Inc.**
+**Biostatistician at Lindus Health**
 
 
 

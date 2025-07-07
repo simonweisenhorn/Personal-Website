@@ -28,6 +28,7 @@ experience:
     company_url: 'https://oraclinical.com/'
     location: Andover, Massachusetts
     date_start: '2023-09-11'
+    date_end: '2025-05-14'
     description: |2-
         Responsibilities include:
         
