@@ -22,7 +22,7 @@ interests:
 - Fishing
 - Backpacking
 organizations:
-- name: Lindus Health
+- name: Worldwide Clinical Trials
   url: https://www.worldwide.com/ 
 role: Biostatistician II
 social:
