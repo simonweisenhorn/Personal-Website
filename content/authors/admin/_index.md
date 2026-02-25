@@ -23,8 +23,8 @@ interests:
 - Backpacking
 organizations:
 - name: Lindus Health
-  url: https://www.lindushealth.com//
-role: Biostatistician
+  url: https://www.worldwide.com/ 
+role: Biostatistician II
 social:
 - icon: envelope
   icon_pack: fas
@@ -41,7 +41,7 @@ superuser: true
 title: Simon Weisenhorn
 ---
 
-I am a biostatistician at Lindus Health. I am responsible for ensuring compliance with regulatory requirements, developing statistical analysis plans, and coordinating with large, cross-functional teams. I oversee the creation of key datasets, summaries, and graphical representations for clinical trial data, while maintaining a focus on data integrity, quality control, and timely project execution. Additionally, I represent the Statistical Operations Department at various regulatory and sponsor meetings
+I am a Biostatistician II at Worldwide Clinical Trials. I am responsible for ensuring compliance with regulatory requirements, developing statistical analysis plans, and coordinating with large, cross-functional teams. I oversee the creation of key datasets, summaries, and graphical representations for clinical trial data, while maintaining a focus on data integrity, quality control, and timely project execution. Additionally, I represent the Statistical Operations Department at various regulatory and sponsor meetings
 
 I graduated from the University of North Carolina in Chapel Hill where I received my B.S. in Statistics and Analytics and a minor in Data Science. I went on to receive my Master of Statistics from North Carolina State University, but I am still a Tarheel at heart!
 

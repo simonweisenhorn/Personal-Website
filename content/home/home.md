@@ -24,7 +24,7 @@ advanced:
 
 
 
-**Biostatistician at Lindus Health**
+**Biostatistician II at Worldwide Clinical Trials**
 
 
 
